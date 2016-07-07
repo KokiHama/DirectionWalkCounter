@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.directionwalkcounter.MainActivity">
+
+    <TextView
+        android:id="@+id/textview_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X軸："
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y軸："
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z軸："
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview_composite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="合成："
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="前"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textview_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="後"
+        android:textSize="48sp" />
+
+    <TextView
+    android:id="@+id/textview_right"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="右"
+    android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textview_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="左"
+        android:textSize="48sp" />
+
+
+    <TextView
+        android:id="@+id/textview_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0歩"
+        android:textSize="48sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START" />
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET" />
+
+    </LinearLayout>
+
+</LinearLayout>
